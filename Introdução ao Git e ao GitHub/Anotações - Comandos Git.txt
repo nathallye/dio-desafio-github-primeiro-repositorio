@@ -4,15 +4,15 @@
 - git init
 Criamos um Working Directory (Diretório de Trabalho) onde vão ficar armazenados todos os arquivos Adiconados, Modificados e Excluídos
 
-** git status mostra qual o estado do arquivo.
-** untracked significa que o arquivo não está sendo rastreado
+** git status - mostra qual o estado do arquivo.
+** untracked  - significa que o arquivo não está sendo rastreado
 
 
 2° Adicionar arquivo ao rastreamento: 
 - git add [nome_arquivo]
 Ou adicionar todo projeto
 - git add . 
-Aqui adicionamos os aquivos que estão preparados para serem versionados.
+Aqui adicionamos os arquivos que estão preparados para serem versionados.
 
 
 3º Salvar alterações no banco de dados local do git, lá vamos ter o histórico de alterações de versões.
@@ -23,9 +23,11 @@ Outros comandos:
 Verificar diferenças entre arquivos:
 - git diff
 
+
 Verificar histórico de alterações:
 - git log
 O Head aponta a ultima modificaçãoa em uma brench.
+
 
 Usar commits anteriores:
 1° git log;
@@ -33,22 +35,16 @@ Usar commits anteriores:
 Ideal para identificar erros (bugs) voltando commit por commit.
 obs.: para voltar para o inicio de tudo antes do git checkout usar o comando git checkout master
 
+
 Limpar modificações feitas em um arquivo ou recuperar o arquivo deletado
 - git checkout [nome do arquivo]
 Antes de commitar, ou dar git add .
+
 
 Limpar todas alterações feitas em vários arquivos de um projeto de uma vez
 - git reset --hard
 Obs.: esse comando não funciona para arquivos recem adicionados (não rastreados), pois o git não entende qual a versão anterior de tal arquivo.
 
+
 Limpar arquivos (não rastreados) recém adicionados
 - git clean -f
-
-
-
-## GitHub
-Enviar atualizações para o servidor (github) depois de commitar com o git
-- git push
-
-Baixar atualizações do servidor
-- git pull
