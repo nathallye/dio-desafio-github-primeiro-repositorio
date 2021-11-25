@@ -1,0 +1,117 @@
+## Principais:
+
+- Para acessar como administrador: su - ou sudo su - 
+
+- Para sair do acesso como administrador: exit
+
+- Para limpar a tela do terminal: clear ou ctrl + L
+
+- Acessar um diretório: cd [nome_diretório]
+
+- Para voltar um nível do diretório: cd ..
+
+- Para voltar mais de um nível do diretório: cd ../..
+
+- Ler arquivos da diretório: ls
+
+- Ler os arquivos no diretório atual e detalhar: ls -l
+
+- Criar diretório: mkdir [nome] (ex.: mkdir teste)
+
+- Apagar um diretório: rm -rf [nome_diretório] 
+
+- Para completar comandos: TAB ou 2xTAB
+
+- Digitei algum comando mas não quero executar(cancelar execução): CTRL + C
+
+- Executar um comando recente: seta para cima 
+
+- Para obter ajuda do comando: nome_comando --help (ex.: date --help)
+
+
+
+## Outros:
+
+- Verificar a versão do sistema operacional: uname -v
+
+- Verificar a interface usada: env |grep CURRENT_DESKTOP
+
+- Exibir nome da máquina: hostname
+
+- Para ler qual diretório estamos: pwd 
+
+- Ler arquivos com as iniciais digitadas: ls -l nome* (ex.: Aula* - o sistema vai listar todos os arquivos que inciam com o nome Aula)
+
+- Ler arquivos com as iniciais digitadas e o final o que pode conter na lista: ls -l nome[] (ex.: Aula[12345] ou Aula[1-5] - o sistema vai listar todos os arquivos que inciam com o nome Aula e terminam com os itens da lista: Aula1, Aula2, Aula3, Aula4 e Aula5)
+
+- Ler arquivos com as iniciais  e o final digitados: ls -l {Nome, NOME}11 (ex.: {Aula, AULA}11 - o sistema vai listar os arquivos que começam com os nomes digitados e o final)
+
+- Ler arquivos com as iniciais digitadas e no final deve conter um caracter: ls -l nome? (ex.: Teste? - o sistema vai listar todos os arquivos que inciam com o nome Teste e tem um caracter após)
+
+- Para remover um diretório em branco: rmdir nome_diretorio (ex.: rmdir teste)
+
+- Para remover um diretório ou arquivo: rm nome_diretorio (ex.: rm arquivo1 ou rm -r teste)
+
+- Para criar um arquivo em branco: touch nome_arquivo (ex.: touch arquivo1)
+
+- Para copiar um arquivo no mesmo local: cp arquivo_origem arquivo_destino (ex.: cp exemplo1 exemplo2) 
+
+- Para copiar  um arquivo para outro local: cp nome_arquivo / nome_diretorio (ex.: cp exemplo1 / ruby)
+
+- Para copiar  um diretório para outro local: cp -r nome_dietorio / nome_diretorio (ex.: cp teste1 teste2)
+
+- Para mover  um arquivo para outro local: mv nome_arquivo / nome_diretorio (ex.: mv exemplo1 / ruby)
+
+- Para mover  um diretório para outro local: mv -r nome_dietorio / nome_diretorio (ex.: cp teste1 /teste2)
+
+- Para renomear um arquivo: mv nome_arquivo nome_novo (ex.: mv exemplo1 exemplo1-editado)
+
+- Mostrar data e hora: date
+
+- Para executar dois comandos sequenciais: separar os comandos por ; (ex.: clear ; date)
+
+- Para mostrar uma mensagem na tela: echo
+
+- Para exibir o PID do processo atual: echo $$
+
+- Para abrir outro bach(processo): bash
+
+- Para acessar o manual do comando: man nome_comando (ex.: man date) ou info (ex.: info date)
+
+- Definição simples do comando: whatis nome_comando (ex.: whatis date)
+
+- Para criar link simbolico que aponta para um arquivo: ln -s nome_arquivo nome_link (ln -s teste2 link-simbolico)
+
+- Para agrupar arquivos: tar cvf nome_agrupado.tar nome_arquivos  (ex.: tar cvf backup.tar *png - vai agrupar todos arquivos que terminem com png)
+
+- Para desagrupar arquivos: tar xvf nome_agrupado.tar  (ex.: tar xvf backup.tar)
+
+- Para compactar arquivos: gzip nome_agrupado.tar  (ex.: gzip backup.tar)
+
+- Para compactar arquivos sem excluir: gzip -k nome_agrupado.tar  (ex.: gzip backup.tar)
+
+- Para descompactar arquivos: gzip -d nome_agrupado.tar.gz  (ex.: gzip -d backup.tar.gz)
+
+- Para agrupar e compactar arquivos ao mesmo tempo: tar czvf nome_agrupado.tgz nome_arquivos  (ex.: tar czvf backup.tgz *png - vai agrupar e compactar todos arquivos que terminem com png)
+
+- Para desagrupar e descompactar arquivos ao mesmo tempo: tar xzvf nome_agrupado.tgz (ex.: tar xzvf backup.tgz)
+
+- Para buscar arquivos dentro dos diretórios: find /home/nathallye ou outro diretório -name nome_arquivo (ex.: find home/nathallye -name teste1)
+
+- Para buscar arquivos: locate qualquer_palavra_contida_no_arquivo (ex.: locate rpm - o sistema vai monstrar todos arquivos que contém a palavra rpm)
+
+- Para buscar comandos, executaveis: whereis primeira_palavra (ex.: whereis touch)
+
+- Gereciador de processos do linux: top
+
+- Gerenciador de memória: free -h
+
+- Reiniciar máquina: reboot
+
+- Desligar a máquina: poweroff
+
+
+
+## Para instalar aplicações de extensão: 
+1. no terminal entrar na pasta onde o arquivo está
+2. depois colocar: sudo dpkg -i nome_do_arquivo

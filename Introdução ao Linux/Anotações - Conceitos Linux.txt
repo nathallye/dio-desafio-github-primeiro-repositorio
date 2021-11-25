@@ -1,0 +1,80 @@
+## Linux
+
+Minha distribuição: Debian
+Minha interface: GNOME
+
+Gravadores 
+Gravador de CD: BRAZEIRO
+Gravador USB(para gravar ISOS): LinuxLive USB Creator - Para criar uma arquivo butavel no Windows
+Gravador USB(para gravar ISOS): UNetbootin - Para criar uma arquivo butavel no Linux
+
+
+Servioços para servidores (EMPRESAS)
+- Servidores WEB
+Apache
+Nginx
+
+- Servidores MTA - Email
+sendemail.org
+postfix
+exim
+
+- Compartilhamento de Arquivos
+NFS - Sistema de arquivos de rede padrão do lixux
+Samba - Compartilhamento de arquivos e impressoras entre máquinas que rodam Linux e Windows
+
+- Bancos de Dados
+MySQL
+PostgreSQL
+MariaDB
+mongoDB (banco de dados não relacional)
+
+- Outros serviços
+LDAP/openLDAP - Serviços de diretórios. Fornecer e controlar acessos a recursos e serviços de rede.
+DHCP - Distribuição de IPs dinâmicos na rede.
+DNS/BIND - Serviços de resolução de nomes.
+Proxy/Squid - Intermediário de Acesso Web. Funções de Controle, Registro, Cache.
+
+Serviços para Desktop (PESSOAL)
+- Gerenciamento de Pacotes
+Através de linha de comando APT/dpkg(debian) e YUM/rpm(hed ret).
+Gerenciadores Gráficos (Synaptic, Software Install).
+
+- Navegadores
+Mozilla
+Opera
+Chrome
+
+- Clientes de E-mail
+Evolution
+Thunderbird
+
+- Suíte de Escritório 
+LibreOffice
+Apache OpenOffice 
+
+- Imagens
+GIMP
+INKSCAPE
+
+- Vídeos
+VLC
+OpenShot
+kdenlive
+
+- Áudio 
+Audacity
+Rhythmbox
+amarok
+
+- Outras Aplicações
+Wine - Execução de Programas Windows.
+VirtualBox - Máquina Virtual.
+Pidgin - Mensagens Instantâneas.
+FreeCAD (AutoCAD).
+Blender - Animação e Modelagem 3D.
+Eclipse - IDE de desenvolvimento.
+
+
+Shell e Karnel
+- Shell: Interface entre o usuário e o karnel linux. Interpretador de instruções(linhas de comando). Chama as aplicações. (Shell padrão: Bourne-Again Shell(bash)).
