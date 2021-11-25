@@ -1,0 +1,7 @@
+## GitHub
+
+Enviar atualizações para o servidor (github) depois de commitar com o git
+- git push
+
+Baixar atualizações do servidor
+- git pull
