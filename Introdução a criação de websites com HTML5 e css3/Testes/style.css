@@ -1,18 +1,68 @@
+h1, h2 {
+  text-align: center;
+}
+
 body {
-  background-color: darkgray;
+  background-color: #DCDCDC;
+  font-family: Verdana;
+  max-width: 900px; /* Vai ter até 900px mas se a tela for menor ele vai se adequar */
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: underline;
+  color: #ff266a;
+}
+
+.title-img {
+  border-radius: 10px;
 }
 
 #title-main, .subtitle, .title-post {
   color: #ff266a;
 }
 
-.title-post {
+#title-main {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.post-title {
+  text-align: center;
   font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .post {
   background-color: #ffff;
-  padding: 10px; /* espaçamento entre o conteúdo e a borda */
-  border: 3px solid black;
-  margin: 5px;
+  padding: 15px; /* espaçamento entre o conteúdo e a borda */
+  border: 3px solid #696969;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  
+}
+
+.post-content {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.post-img {
+  margin-bottom: 15px; /* É uma boa prática manter as margens sempre na mesma direção, nesse caso no lafo inferior (bottom). Então quando quisermos colocar espaçamento entre elementos, escolher top ou bottom (acima ou abaixo).*/
+  border-radius: 10px;
+  width: 100%;
+}
+
+.list-contacts {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.list-contacts li a {
+  text-decoration: none;
 }
