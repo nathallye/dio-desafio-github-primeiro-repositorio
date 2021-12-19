@@ -1,0 +1,18 @@
+body {
+  background-color: darkgray;
+}
+
+#title-main, .subtitle, .title-post {
+  color: #ff266a;
+}
+
+.title-post {
+  font-style: italic;
+}
+
+.post {
+  background-color: #ffff;
+  padding: 10px; /* espaçamento entre o conteúdo e a borda */
+  border: 3px solid black;
+  margin: 5px;
+}
